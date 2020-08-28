@@ -33,5 +33,4 @@ sed -i '$a src-git helloworld https://github.com/fw876/helloworld' feeds.conf.de
 # echo 'src-git onliner https://github.com/rufengsuixing/luci-app-onliner' >> feeds.conf.default
 # echo 'src-git luciappserverchan https://github.com/tty228/luci-app-serverchan' >> feeds.conf.default
 
-git clone https://github.com/tty228/luci-app-serverchan.git feeds/luci/applications/luci-app-serverchan
-git clone https://github.com/rufengsuixing/luci-app-onliner.git feeds/luci/applications/luci-app-luci-app-onliner
+
