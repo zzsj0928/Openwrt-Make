@@ -18,9 +18,9 @@ on:
     branches:
       - main
     paths:
-      - 'K2P.config'
-#  schedule:
-#    - cron: 0 8 * * 5
+      - 'MakeMenu.K2P.config'
+  schedule:
+    - cron: 0 7 * * 5
 #  watch:
 #    types: started
 
@@ -28,14 +28,14 @@ env:
   REPO_URL: https://github.com/coolsnowwolf/lede
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: K2P.config
+  CONFIG_FILE: MakeMenu.K2P.config
   DIY_P1_SH: diy-part1.sh
   DIY_P2_SH: diy-part2.sh
   SSH_ACTIONS: false
   UPLOAD_BIN_DIR: false
   UPLOAD_FIRMWARE: true
-  UPLOAD_COWTRANSFER: false
-  UPLOAD_WETRANSFER: false
+  UPLOAD_COWTRANSFER: true
+  UPLOAD_WETRANSFER: true
   TZ: Asia/Shanghai
 
 jobs:
