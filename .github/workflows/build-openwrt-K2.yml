@@ -19,8 +19,8 @@ on:
       - main
     paths:
       - 'MakeMenu.K2.config'
-#  schedule:
-#    - cron: 0 8 * * 5
+  schedule:
+    - cron: 0 7 * * 5
 #  watch:
 #    types: started
 
