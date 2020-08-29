@@ -21,3 +21,6 @@ git clone https://github.com/tty228/luci-app-serverchan.git package/luci-app-ser
 # Add Onliner
 # git clone https://github.com/rufengsuixing/luci-app-onliner.git feeds/luci/applications/luci-app-onliner
 git clone https://github.com/rufengsuixing/luci-app-onliner.git package/luci-app-onliner
+
+# Add OpenAppFilter
+git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
